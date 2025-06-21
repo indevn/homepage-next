@@ -5,17 +5,17 @@ export const SITE_CONFIG = {
   smmsApiToken: process.env.SMMS_API_TOKEN || '',
   apiCallingToken: process.env.API_CALLING_TOKEN || '',
 
-  title: `贼歪`,
-  keywords: `贼歪, zy, 个人网站, 博客, 技术, 前端, Notion, Homepage, Blog`,
+  title: `indevn`,
+  keywords: `indevn, 个人网站, 博客, Homepage, Blog`,
   description: ``,
-  author: `贼歪`,
+  author: `indevn`,
   email: ``,
   lang: `zh-CN`,
 
   blogPerPage: 10,
   categories: {
-    nichijou: { notionField: 'Nichijou', alias: '日常', favicon: '🍀', description: '一个普通人的思考与呓语。' },
-    coding: { notionField: 'Coding', alias: '编程', favicon: '🧑‍💻', description: '一堆没有干货的技术笔记。' },
+    nichijou: { notionField: 'life', alias: '日常', favicon: '🍀', description: '随笔' },
+    coding: { notionField: 'tech', alias: '技术', favicon: '🧑‍💻', description: '技术相关的记录' },
   },
 
   utterancRepo: ``,
